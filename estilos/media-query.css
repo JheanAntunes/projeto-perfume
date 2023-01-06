@@ -51,8 +51,8 @@ Grandes telas: min-width: 1200px
     
     main{
         flex-direction: row;
-        width: 500px;
-        height: 420px;
+        width: 520px;
+        height: 430px;
     }
     img{
         display: none;
@@ -76,12 +76,13 @@ Grandes telas: min-width: 1200px
     }
 
     section.texto > span{
-        margin-top: 2em;
+        margin-top: 3.5em;
     }
    
     section.texto > h1{
-        margin-top: 1em;
-        width: 50%;
+        margin-top: 0.5em;
+        width: 70%;
+        font-size: 1.6em;
     }
 
     section.texto > p{
@@ -92,6 +93,10 @@ Grandes telas: min-width: 1200px
     div.botao > button:hover{
        background-color: #2b584a;
         cursor: pointer;
+    }
+
+    div.botao{
+        margin-top: 2em;
     }
 
     div.preco{
