@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* Typical device Breakpoints 
+  ---------------------------
+Pequenas telas:  max-width 600px
+Celular: min-width 600px
+Tablet: 768px até 992px
+Desktop: min-width: 992px até 1200px
+Grandes telas: min-width: 1200px 
+*/
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  
+    main{
+        flex-direction: row;
+        width: 400px;
+        height: 300px;
+    }
+    img{
+        display: none;
+       
+    }
+    
+    section.imagem{
+        background: white url('../images/image-product-desktop.jpg') no-repeat top center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    section.imagem{
+        border-radius: .6em  0em 0em .6em;
+    }
+
+    section.texto{
+        height: 100%;
+    }
+
+    section.texto > span{
+        margin-top: 1em;
+    }
+    
+    div.botao > button:hover{
+        background-color: #2b584a;
+         cursor: pointer;
+     }
+}
+
+/*Desktop e telas maiores*/
+@media screen and (min-width: 993px) {
+    
+    main{
+        flex-direction: row;
+        width: 500px;
+        height: 300px;
+    }
+    img{
+        display: none;
+       
+    }
+    
+    section.imagem{
+        background: white url('../images/image-product-desktop.jpg') no-repeat top center;
+        background-size: cover;
+        height: 100%;
+    }
+
+    section.imagem{
+        border-radius: .6em  0em 0em .6em;
+    }
+
+    section.texto{
+        height: 100%;
+    }
+
+    section.texto > span{
+        margin-top: 1em;
+    }
+
+    div.botao > button:hover{
+       background-color: #2b584a;
+        cursor: pointer;
+    }
+}
