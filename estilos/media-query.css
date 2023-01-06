@@ -51,14 +51,18 @@ Grandes telas: min-width: 1200px
     
     main{
         flex-direction: row;
-        width: 500px;
-        height: 300px;
+        width: 600px;
+        height: 400px;
     }
     img{
         display: none;
        
     }
     
+    section{
+        
+    }
+
     section.imagem{
         background: white url('../images/image-product-desktop.jpg') no-repeat top center;
         background-size: cover;
@@ -67,18 +71,39 @@ Grandes telas: min-width: 1200px
 
     section.imagem{
         border-radius: .6em  0em 0em .6em;
+        width: 80%;
     }
 
     section.texto{
         height: 100%;
+        width: 90%;
     }
 
     section.texto > span{
+        margin-top: 2em;
+    }
+   
+    section.texto > h1{
         margin-top: 1em;
+    }
+
+    section.texto > p{
+        margin-top: 2em;
+        font-size: large;
     }
 
     div.botao > button:hover{
        background-color: #2b584a;
         cursor: pointer;
+    }
+
+    div.preco{
+        vertical-align: bottom;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+    div.preco > span.valor{
+        font-size: 2.3em;
     }
 }
