@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/JheanAntunes)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/JheanAntunes/projeto-perfume)
+- Live Site URL: [Add live site URL here](https://jheanantunes.github.io/projeto-perfume/)
 
 ## My process
 
@@ -98,8 +98,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Jhean Antunes lopes](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Jhean Antunes lopes](https://jheanantunes.github.io/projeto-perfume/)
+- Frontend Mentor - [](https://www.frontendmentor.io/profile/Jhean Antunes Lopes)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
